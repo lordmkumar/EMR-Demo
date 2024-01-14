@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10101100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
   <layouts>
-    <layout name="npnxnanbsnfns10101100101" font="Lato" controllayout="npnxnanbsnfns10101100101" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
-    <layout name="pxabnsnfns10101100101" font="Lato" controllayout="pxabnsnfns10101100101" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
-    <layout name="npxnabnsnfns10101100101" font="Lato" controllayout="npxnabnsnfns10101100101" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
-    <layout name="npnxnanbnsnfns10101100101" font="Lato" controllayout="npnxnanbnsnfns10101100101" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
-    <layout name="pxabnsnfns10101100100" font="Lato" controllayout="pxabnsnfns10101100100" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
-    <layout name="npxnanbnsnfns10101100101" font="Lato" controllayout="npxnanbnsnfns10101100101" colorscheme="npxnanbnsnfns10101100101" string_table="npxnanbnsnfns10101100101" />
+    <layout name="npnxnanbsnfns10111100101" font="Lato" controllayout="npnxnanbsnfns10111100101" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100101" font="Lato" controllayout="pxabnsnfns10111100101" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
+    <layout name="npxnabnsnfns10111100101" font="Lato" controllayout="npxnabnsnfns10111100101" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
+    <layout name="npnxnanbnsnfns10111100101" font="Lato" controllayout="npnxnanbnsnfns10111100101" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100100" font="Lato" controllayout="pxabnsnfns10111100100" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
+    <layout name="npxnanbnsnfns10111100101" font="Lato" controllayout="npxnanbnsnfns10111100101" colorscheme="npxnanbnsnfns10111100101" string_table="npxnanbnsnfns10111100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -66,7 +66,7 @@
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
-          <option name="pauseplay" value="false" />
+          <option name="pauseplay" value="true" />
           <option name="replay" value="true" />
           <option name="search" value="false" />
           <option name="closed_captions" value="true">
@@ -94,11 +94,11 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10101100101">
+    <control_layout name="npnxnanbsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -119,11 +119,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10101100101">
+    <control_layout name="pxabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -144,11 +144,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10101100101">
+    <control_layout name="npxnabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -169,11 +169,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10101100101">
+    <control_layout name="npnxnanbnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
@@ -194,11 +194,11 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10101100100">
+    <control_layout name="pxabnsnfns10111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
@@ -219,11 +219,11 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxnanbnsnfns10101100101">
+    <control_layout name="npxnanbnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="false" />
+      <control name="pauseplay" enabled="true" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
@@ -246,7 +246,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnanbnsnfns10101100101">
+    <colorscheme name="npxnanbnsnfns10111100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1424,7 +1424,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnanbnsnfns10101100101">
+    <string_table name="npxnanbnsnfns10111100101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1598,12 +1598,11 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5WxRwexv5Km" displaytext="Skin Conditions" expand="true" type="slide">
+        <slidelink slideid="_player.5WxRwexv5Km" displaytext="Electronic Medical Records" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5WxRwexv5Km.6MMNP1OyZL9" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5WxRwexv5Km.6MMNP1OyZL9" displaytext="What is EMR" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5abN4JNP0vp" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5WxRwexv5Km.5lmX9WWK8ZV" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5WxRwexv5Km.62YdM52AKh7" displaytext="OpeningSlide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
